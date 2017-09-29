@@ -5,17 +5,16 @@
  */
 package main;
 
-/**
- *
- * @author Ivan David
- */
+import view.MenorMvcView;
+import model.MenorMvcModel;
+import controller.MenorMvcController;
+
 public class MenorMvcMain {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        MenorMvcView menor_view = new MenorMvcView();
+        MenorMvcModel menor_model = new MenorMvcModel();
+        MenorMvcController menor_controller = new MenorMvcController(menor_view, menor_model);
+
     }
-    
 }
