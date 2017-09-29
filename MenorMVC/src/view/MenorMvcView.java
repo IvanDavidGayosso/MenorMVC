@@ -27,18 +27,48 @@ public class MenorMvcView extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        jl_N1 = new javax.swing.JLabel();
+        jl_N2 = new javax.swing.JLabel();
+        jl_N3 = new javax.swing.JLabel();
+        jl_MN = new javax.swing.JLabel();
+        jbtn_menor = new javax.swing.JButton();
+        jtf_N3 = new javax.swing.JTextField();
+        jtf_N2 = new javax.swing.JTextField();
+        jtf_MN = new javax.swing.JTextField();
+        jtf_N1 = new javax.swing.JTextField();
+        jLabel1 = new javax.swing.JLabel();
+        jl_fondo = new javax.swing.JLabel();
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
-        );
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jl_N1.setText("Numero1");
+        getContentPane().add(jl_N1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, 90, 20));
+
+        jl_N2.setText("Numero2");
+        getContentPane().add(jl_N2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 120, 90, 20));
+
+        jl_N3.setText("Numero3");
+        getContentPane().add(jl_N3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 160, 90, 20));
+
+        jl_MN.setText("Resultado:");
+        getContentPane().add(jl_MN, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 200, 90, 20));
+
+        jbtn_menor.setBackground(new java.awt.Color(102, 153, 255));
+        jbtn_menor.setForeground(new java.awt.Color(255, 255, 255));
+        jbtn_menor.setText("Menor");
+        getContentPane().add(jbtn_menor, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 250, 130, 50));
+        getContentPane().add(jtf_N3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 160, 90, -1));
+        getContentPane().add(jtf_N2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 120, 90, -1));
+        getContentPane().add(jtf_MN, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 200, 110, -1));
+        getContentPane().add(jtf_N1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 80, 90, -1));
+
+        jLabel1.setFont(new java.awt.Font("SWItal", 1, 18)); // NOI18N
+        jLabel1.setText("¿Cuál es el menor?");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 20, 230, 30));
+
+        jl_fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/blue.jpg"))); // NOI18N
+        getContentPane().add(jl_fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 590, 330));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -79,5 +109,16 @@ public class MenorMvcView extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JButton jbtn_menor;
+    private javax.swing.JLabel jl_MN;
+    private javax.swing.JLabel jl_N1;
+    private javax.swing.JLabel jl_N2;
+    private javax.swing.JLabel jl_N3;
+    private javax.swing.JLabel jl_fondo;
+    private javax.swing.JTextField jtf_MN;
+    private javax.swing.JTextField jtf_N1;
+    private javax.swing.JTextField jtf_N2;
+    private javax.swing.JTextField jtf_N3;
     // End of variables declaration//GEN-END:variables
 }
