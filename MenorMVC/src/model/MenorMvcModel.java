@@ -43,10 +43,10 @@ public class MenorMvcModel {
     public void Menor(){
         
         mn = n1;
-        if(mn < n2) {
+        if(mn > n2) {
             mn = n2;
         }
-        if (mn < n3) {
+        if (mn > n3) {
             mn = n3;
         }
         
