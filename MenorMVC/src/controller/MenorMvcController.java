@@ -25,7 +25,7 @@ public class MenorMvcController {
 
     public void initView() {
 
-        menor_view.jbtn_menor.addAvtionListener(e -> jtbn_obtener_menor_click());
+        menor_view.jbtn_menor.addActionListener(e -> jtbn_obtener_menor_click());
         menor_view.setVisible(true);
     }
 
