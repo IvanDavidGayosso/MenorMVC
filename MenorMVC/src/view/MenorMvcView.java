@@ -110,15 +110,15 @@ public class MenorMvcView extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JButton jbtn_menor;
+    public javax.swing.JButton jbtn_menor;
     private javax.swing.JLabel jl_MN;
     private javax.swing.JLabel jl_N1;
     private javax.swing.JLabel jl_N2;
     private javax.swing.JLabel jl_N3;
     private javax.swing.JLabel jl_fondo;
-    private javax.swing.JTextField jtf_MN;
-    private javax.swing.JTextField jtf_N1;
-    private javax.swing.JTextField jtf_N2;
-    private javax.swing.JTextField jtf_N3;
+    public javax.swing.JTextField jtf_MN;
+    public javax.swing.JTextField jtf_N1;
+    public javax.swing.JTextField jtf_N2;
+    public javax.swing.JTextField jtf_N3;
     // End of variables declaration//GEN-END:variables
 }
